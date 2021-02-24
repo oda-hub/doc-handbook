@@ -15,3 +15,10 @@
 * make **references** to the doc and from the doc:
    *  **Make documentation discoverable! - i.e. referenced from known locations**. Not discoverable doc is all but useless and will likely be re-done unknowing. 
    *  not be afraid to put references to diverse resources, including restricted internal resources. 
+
+### Syncronozing git, redmine, etc
+
+We have many sources for doc. Luckily, we have tools to synchronize them.
+
+For example [redmine-flow] (try `pip install redmine-flow`) allows to push/pull docs from redmine similarly to git. 
+To convert between doc formats, it's good to use [pandoc].
