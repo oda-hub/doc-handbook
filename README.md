@@ -17,7 +17,9 @@ We aim to follow [FAIR](https://www.fairsfair.eu/news/fair-assessment-and-certif
 * make **references** to the doc and from the doc:
    *  **Make documentation discoverable! - i.e. referenced from known locations**. Not discoverable doc is all but useless and will likely be re-done unknowing. 
    *  not be afraid to put references to diverse resources, including restricted internal resources. 
+   *  be sure that doc leads from somewhere and gets somewhere, **anticipate doc user flow**
 * try to follow [metadata ontology](https://redmine.astro.unige.ch/projects/cdci/wiki/Metadata-Schema)
+
 
 ### Syncronozing git, redmine, etc
 
