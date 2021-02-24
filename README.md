@@ -6,6 +6,13 @@
 * When building interface accessible by other apps/users, try stick to standards and schemas (e.g. swagger). Make the schemas discoverable, reference in README.md on oda-hub repositories.
 * Follow [issue handling principles](https://github.com/oda-hub/doc-ops-reporting#issue-handling-principles) - in short, do not expect issues to be left unattended, never.
 
+## Branches
+
+* use master for current development version. 
+* for production, use e.g. production-1-2 and for staging - staging-1-2 (as of now, with dashes)
+* latest staging might or might not coincide with master. 
+
+
 ## Documentation
 
 We aim to follow [FAIR](https://www.fairsfair.eu/news/fair-assessment-and-certification-eosc-region-report-available) documentation practices.
