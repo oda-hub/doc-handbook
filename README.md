@@ -9,8 +9,9 @@
 
 ## Branches
 
-* use master for current development version. 
+* use master for current development version, as deployed.
 * for production, use e.g. production-1-2 and for staging - staging-1-2 (as of now, with dashes)
+* use feature branches as necessary, in forks or in the base repository
 * latest staging might or might not coincide with master. 
 
 
