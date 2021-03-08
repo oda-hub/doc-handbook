@@ -4,12 +4,12 @@
 ## General
 
 * When building interface accessible by other apps/users, try stick to standards and schemas (e.g. swagger). Make the schemas discoverable, reference in README.md on oda-hub repositories.
-* Follow [issue handling principles](https://github.com/oda-hub/doc-ops-reporting#issue-handling-principles) - in short, do not expect issues to be left unattended, never.
+* Follow [issue handling principles](https://github.com/oda-hub/doc-ops-reporting#issue-handling-principles) - in short, do not expect user issues to be left unattended, never.
 * Do not be afraid to introduce large changes, but only if they respect previous interfaces
 
 ## Branches
 
-* use master for current development version, as deployed.
+* use master for current development version, as deployed in UNIGE. It may also experience quick bug-fixes, but not new running feature developments (feature branches are for that).
 * for production, use e.g. production-1-2 and for staging - staging-1-2 (as of now, with dashes)
 * use feature branches as necessary, in forks or in the base repository
 * latest staging might or might not coincide with master. 
