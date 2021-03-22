@@ -9,13 +9,15 @@
 
 ## Branches, Versions, Releases
 
-So far we have used [SemVer](https://semver.org/), ending up with 1.2 production and 1.3 planned release. However, we found that scope of the next planned version has been always shifting. This is not necessarily bad, but we take an opportunity of reorganizing development in new framework and more naturally adopt [CalVer](calver.org),  and make releases regularly (at least yearly).  More frequent bugfixes will happen as necessary. This will be reflected in the version as so:
+So far we have used [SemVer](https://semver.org/), ending up with 1.2 production and 1.3 planned release. However, we found that scope of the next planned version has been always shifting. This is not necessarily bad, but we take an opportunity of reorganizing development in new framework and more naturally adopt [CalVer](calver.org) and make releases regularly (at least yearly).  More frequent bugfixes will happen as necessary. This will be reflected in the version as so:
 
 **YY.MM.RRR**
 
 where **YY** and **MM** correspond to the release month, and **RRR** is an incremental bugfix/update level since the release.
 
 for example, next release will be **21.05.000**.
+
+CalVer will also clearly communicate pace of development, hopefully reduce hesitation in making the next significant release, and make the development more dynamic, matching the repeated requests of the users.
 
 Releases will be made as soon as accumunated features are necessary, made into release branch from the master branch, and tagged. Further 
 If a bugfix is necessary, a dedicated bugfix branch will be made and destroyed when bugfix version is tagged.
