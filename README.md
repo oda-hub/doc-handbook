@@ -7,6 +7,17 @@
 * Follow [issue handling principles](https://github.com/oda-hub/doc-ops-reporting#issue-handling-principles) - in short, do not expect user issues to be left unattended, never.
 * Do not be afraid to introduce large changes, but only if they respect previous interfaces
 
+## Do not forget to
+
+we all do many things, but we should be concious that some actions are needed for smooth progress of collective project.
+Even though these actions may be delayed as necessary, it should be done with intent.
+Too much notifications and distractions are detrimental to productivity, but one should aim keep some level of engagement.
+
+It may be advisable to make sure all actions and channels converge to email. 
+
+* on github check assigned issues, reviews, pull requests (this is all reflected in notifications, and other fields in the github page header)
+* communicate by mattermost and slack
+
 ## Branches, Versions, Releases
 
 **NOTE**: we should [confirm](https://github.com/oda-hub/meetings/blob/main/2021-03-29/agenda.md) the calver approach, which was recently [suggested](https://github.com/oda-hub/meetings/blob/main/2021-03-22/minutes.md)
