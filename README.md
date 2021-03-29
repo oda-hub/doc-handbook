@@ -26,12 +26,11 @@ We used release branches for each version, like **production-V.V**. Any bugfixes
 In addition, **staging-V.V** were used for ongoing developments in current version. Also, for previous versions, **staging-V.V** were used to 
 This worked rather well.
 
-Since the release rate was not too fast, sometimes fe
-
 On github, it is not convenient that current development is in the latest **staging-V.V** branch, whichever it happens to be at the moment. To reduce the uncertainty on what is the current version in development, we can just use the **master** branch for merging all new features.
 
-
 We did current development is in the latest **staging-V.V** branch, whichever it happens to be at the moment. We remembered which one it was, since pace was slow, and people were few. But now it is becoming more difficult.
+
+Previously, **staging-V.V** deployment was automatically updated to all recent **staging-V.V** component branches. However, some components evolved very little, and it was not useful to keep creating new identical branches - this introduced confusion, and was not sufficiently explicit.  With faster development, more components, and more branches this becomes really unfeasible. 
 
 ### Current strategy
 
@@ -44,15 +43,15 @@ In addition, we continue maintain the current development **staging** version of
 
 **This approach will go along with faster development rate, and will allow to roll-out features faster**.
 
-* Note that this description applies first of all to the version entire platform, i.e. http://github.com/oda-hub/oda-chart.git, which contains (or will contain) references to the all of the  components. Versions of the individual components should also follow the **calver** scheme. But until referenced in oda-chart they will not be generally deployed. Previously, **staging-V.V** was automatically updated to all recent **staging-V.V** component branches. However, some components evolved very little, and it was not useful to keep creating new identical branches - this introduced confusion, and was not sufficiently explicit. With faster development, more components, and more branches this becomes really unfeasible. However, we may semi-automatically update oda-chart with updates of some components.
+* Note that this description applies first of all to the version entire platform, i.e. http://github.com/oda-hub/oda-chart.git, which contains (or will contain) references to the all of the  components. Versions of the individual components should also follow the **calver** scheme. But until referenced in oda-chart they will not be generally deployed. However, we may semi-automatically update oda-chart with updates of some components.
 
 **NOTE**: we should [confirm](https://github.com/oda-hub/meetings/blob/main/2021-03-29/agenda.md) the calver approach, which was recently [suggested](https://github.com/oda-hub/meetings/blob/main/2021-03-22/minutes.md)
 
 So far we have used [SemVer](https://semver.org/), ending up with 1.2 production and 1.3 planned release. However, we found that scope of the next planned version has been always shifting. This is not necessarily bad, but we take an opportunity of reorganizing development in new framework and more naturally adopt [CalVer](calver.org) and make releases regularly (at least yearly).  More frequent bugfixes will happen as necessary. This will be reflected in the version as so:
 
-**YY.MM.RRR**
+**YY.MM.PPPP**
 
-where **YY** and **MM** correspond to the release month, and **RRR** is an incremental bugfix/update level since the release.
+where **YY** and **MM** correspond to the release month, and **PPPP** is an incremental bugfix/update level since the release.
 
 for example, next release will be **21.05.000**.
 
