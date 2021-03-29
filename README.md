@@ -23,7 +23,7 @@ It may be advisable to make sure all actions and channels converge to email.
 ### What did we use before and what's wrong with it
 
 We used release branches for each version, like **production-V.V**. Any bugfixes were applied to these branches.
-In addition, **staging-V.V** were used for ongoing developments in current version. Also, for previous versions, **staging-V.V** were used to 
+In addition, **staging-V.V** were used for ongoing developments in current version. Also, for previous versions, **staging-V.V** were used to preview updates before making them live.
 This worked rather well.
 
 On github, it is not convenient that current development is in the latest **staging-V.V** branch, whichever it happens to be at the moment. To reduce the uncertainty on what is the current version in development, we can just use the **master** branch for merging all new features.
