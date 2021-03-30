@@ -3,17 +3,15 @@
 
 ## General
 
-* When building interface accessible by other apps/users, try stick to standards and schemas (e.g. swagger). Make the schemas discoverable, reference in README.md on oda-hub repositories.
-* Follow [issue handling principles](https://github.com/oda-hub/doc-ops-reporting#issue-handling-principles) - in short, do not expect user issues to be left unattended, never.
-* Do not be afraid to introduce large changes, but only if they respect previous interfaces
+* When building interfaces accessible by other apps/users, try and stick to a pre-defined set of standards and schemas (e.g. swagger). Make the schemas discoverable, ideally referenced in the README.md on oda-hub repositories.
+* Follow the [issue handling principles](https://github.com/oda-hub/doc-ops-reporting#issue-handling-principles) - in order to never have user issues unhandled.
+* Do not be afraid to introduce large changes, but only if they respect previous interfaces.
 
 ## Do not forget to
 
-we all do many things, but we should be concious that some actions are needed for smooth progress of collective project.
-Even though these actions may be delayed as necessary, it should be done with intent.
-Too much notifications and distractions are detrimental to productivity, but one should aim keep some level of engagement.
+We all do many things, but we should be concious that certain actions are crucial for the progress of collective projects: even though those may be delayed if necessary, there should always be a reason behind. Too much notifications and distractions are detrimental to productivity, but some level of engagement should  always be maintaned.
 
-It may be advisable to make sure all actions and channels converge to email. 
+It may be advisable to make sure all actions and channels converge to email and notifications, in order to keep everybody aware of the ongoing changes:
 
 * on github check assigned issues, reviews, pull requests (this is all reflected in notifications, and other fields in the github page header)
 * communicate by mattermost and slack
@@ -23,14 +21,13 @@ It may be advisable to make sure all actions and channels converge to email.
 ### What did we use before and what's wrong with it
 
 We used release branches for each version, like **production-V.V**. Any bugfixes were applied to these branches.
-In addition, **staging-V.V** were used for ongoing developments in current version. Also, for previous versions, **staging-V.V** were used to preview updates before making them live.
-This worked rather well.
+In addition, **staging-V.V** were used for ongoing developments in current version. Also, for previous versions, **staging-V.V** were used to preview updates before making them live. This worked quite well.
 
-On github, it is not convenient that current development is in the latest **staging-V.V** branch, whichever it happens to be at the moment. To reduce the uncertainty on what is the current version in development, we can just use the **master** branch for merging all new features.
+This approach is not convenient on github, so to reduce the uncertainty on what is the current development version, we can just use the **master** (or **main**) branch, and merge on it all the new features.
 
-We did current development is in the latest **staging-V.V** branch, whichever it happens to be at the moment. We remembered which one it was, since pace was slow, and people were few. But now it is becoming more difficult.
+We used to mantain the current development is in the latest **staging-V.V** branch, whichever it happens to be at the moment. We knew which one this was, as the pace was slow, and the people involved were few: but this now is becoming more difficult.
 
-Previously, **staging-V.V** deployment was automatically updated to all recent **staging-V.V** component branches. However, some components evolved very little, and it was not useful to keep creating new identical branches - this introduced confusion, and was not sufficiently explicit.  With faster development, more components, and more branches this becomes really unfeasible. 
+Previously, **staging-V.V** deployment was automatically updated and merged with all the relative component branches. However, some components evolved very little, and it was not useful to keep creating new identical branches - this introduced confusion, since there was a lack of clarity. With faster development, more components, and in turn more branches, the development becomes more and more difficult to track. 
 
 ### Current strategy
 
