@@ -6,3 +6,4 @@ hotfix
 bugfixes
 mattermost
 calver
+astro

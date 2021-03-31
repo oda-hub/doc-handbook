@@ -9,7 +9,7 @@
 
 ## Do not forget to
 
-we all do many things, but we should be concious that some actions are needed for smooth progress of collective project.
+we all do many things, but we should be conscious that some actions are needed for smooth progress of collective project.
 Even though these actions may be delayed as necessary, it should be done with intent.
 Too much notifications and distractions are detrimental to productivity, but one should aim keep some level of engagement.
 
@@ -57,7 +57,7 @@ for example, next release will be **21.05.000**.
 
 CalVer will also clearly communicate pace of development, hopefully reduce hesitation in making the next significant release, and make the development more dynamic, matching the repeated requests of the users.
 
-Releases will be made as soon as accumunated features are necessary, made into release branch from the master branch, and tagged. Further 
+Releases will be made as soon as accumulated features are necessary, made into release branch from the master branch, and tagged. Further 
 If a bugfix is necessary, a dedicated bugfix branch will be made and destroyed when bugfix version is tagged.
 
 * use master for current stable staging version (i.e. no need for staging-1-3 etc), as deployed in UNIGE in staging (pre-release) environment. It may also experience quick bug-fixes, but not new running feature developments (feature branches are for that).
@@ -83,13 +83,18 @@ We aim to follow [FAIR](https://www.fairsfair.eu/news/fair-assessment-and-certif
    *  **Make documentation discoverable! - i.e. referenced from known locations**. Not discoverable doc is all but useless and will likely be re-done unknowing. 
    *  not be afraid to put references to diverse resources, including restricted internal resources. 
    *  be sure that doc leads from somewhere and gets somewhere, **anticipate doc user flow**
-   *  in particular **in document is abandoned, outdated, or moved, leave a reference to follow-up**. Dont let reader be lost!
+   *  in particular **in document is abandoned, outdated, or moved, leave a reference to follow-up**. Do not let reader be lost!
 * try to follow [metadata ontology](https://redmine.astro.unige.ch/projects/cdci/wiki/Metadata-Schema)
 
 
-### Syncronozing git, redmine, etc
+### Synchronizing git, redmine, etc
 
 We have many sources for doc. Luckily, we have tools to synchronize them.
 
 For example [redmine-flow] (try `pip install redmine-flow`) allows to push/pull docs from redmine similarly to git. 
 To convert between doc formats, it's good to use [pandoc].
+
+
+### On the Style
+
+Style is important, but it has a purpose. Let us not focus on taste too much and make style work for us. See dedicated [note](style-guide.md).
