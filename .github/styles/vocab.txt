@@ -1,0 +1,5 @@
+gitlab
+github
+redmine
+bugfix
+hotfix
