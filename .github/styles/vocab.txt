@@ -3,3 +3,6 @@ github
 redmine
 bugfix
 hotfix
+bugfixes
+mattermost
+calver
