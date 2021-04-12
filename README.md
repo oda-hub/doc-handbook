@@ -11,19 +11,22 @@
 
 We all do many things, but we should be concious that certain actions are crucial for the progress of collective projects: even though those may be delayed if necessary, there should always be a reason behind. Too much notifications and distractions are detrimental to productivity, but some level of engagement should  always be maintaned.
 
-It may be advisable to make sure all actions and channels converge to email and notifications, in order to keep everybody aware of the ongoing changes:
+It may be advisable to make sure all actions and channels converge to email:
 
 * on github check assigned issues, reviews, pull requests (this is all reflected in notifications, and other fields in the github page header)
 * communicate by mattermost and slack
 
+Other notifications systems are of course available, in order to increase the visibility of all the changes, but email should still be considered the main one.
+
 ## Branches, Versions, Releases
 
-### Our previous approach and the relateive problems
+### Our previous approach and the relative problems
 
-We used release branches for each version, like **production-V.V**. Any bugfixes were applied to these branches.
-In addition, **staging-V.V** were used for ongoing developments in current version. Also, for previous versions, **staging-V.V** were used to preview updates before making them live. This worked quite well.
+We used release branches for each version, like **production-V.V**. Any bugfixes were applied to these branches. In addition, **staging-V.V** were used for ongoing developments in current version. Also, for previous versions, **staging-V.V** were used to preview updates before making them live. This worked quite well.
 
-This approach is not convenient on github, so to reduce the uncertainty on what is the current development version, we can just use the **master** (or **main**) branch, and merge on it all the new features.
+Having on github the current development in the latest **staging-V.V** branch, whichever it happens to be at the moment, is not conveninent. So, to reduce the uncertainty on what is the current development version, we just use the **master** branch, and merge on it all the new features. 
+
+A later transition to the **main** branch might happen, if that's the case, it will be communicated and this document adapted accordingly.
 
 We used to mantain the current development is in the latest **staging-V.V** branch, whichever it happens to be at the moment. We knew which one this was, as the pace was slow, and the people involved were few: but this now is becoming more difficult.
 
@@ -33,9 +36,10 @@ Previously, **staging-V.V** deployment was automatically updated and merged with
 
 To minimize the uncertainty on which the current development version is, we use the **master** branch for merging all new features.
 
-Once a release needs to be made, we create a **release-YY.MM** branch and a tag **release-YY.MM.PPPP**. From that point forward, no further development will be made to the **YY.MM** version except for bugfixes. Every bug fix will yield in an increase of the patch level (**PPPP** part).
+Once a release needs to be made, we create a **release-YY.MM** branch and a tag **v-YY.MM.PPPP**. From that point forward, no further development will be made to the **YY.MM** version except for bugfixes. Every bug fix will yield in an increase of the patch level (**PPPP** part).
 
-Anytime a new PR is available and reviewed, this can be merged, and a new deployment can be provided. This is becoming possible with the new and improved k8s cluster. In addition, we keep having the current development **staging** version of the platform, which can also integrate features from the **master** branches of all components. This one will be similar to what we did so far with the latest **staging-V.V** version.
+Instead of **staging-V.V**, we will make a deployment for review from each PR. This is becoming possible with the new and improved k8s cluster.
+In addition, we continue maintain the current development **staging** version of the platform, made from tip of the **master** branches of all components. This one will be similar to what we did so far with the latest **staging-V.V** version.
 
 **This approach will go along with faster development rate, and will enable a faster roll-out of new features**.
 
