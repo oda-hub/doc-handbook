@@ -81,7 +81,7 @@ Therefore, we can use labels to indicate given milestone, e.g. for v21.05 releas
 
 Projects can be used to group and preview issues more nicely. E.g. [this project](https://github.com/orgs/oda-hub/projects/8) groups issues/PRs for v21.05 release.
 
-To avoid duplication, labels can be seen as primary indication of the issue/PR assignement to the release, and project is a complementary presentation feature.
+To avoid duplication, labels can be seen as primary indication of the issue/PR assignment to the release, and project is a complementary presentation feature.
 
 ## Documentation
 
