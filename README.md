@@ -77,7 +77,7 @@ We need multi-repository management, so milestones are excluded, unfortunately.
 
 Labels are per-repository, but even if they are created independently, they can be aggregated in organization if they are called the same way, [as so](https://github.com/issues?q=is%3Aopen+is%3Aissue++archived%3Afalse+label%3Aoda-21-05+).
 
-Therefore, we can use labels to indicate given milestone, e.g. for v21.05 release: [oda-21-05](https://github.com/issues?q=is%3Aopen+is%3Aissue++archived%3Afalse+label%3Aoda-21-05+).
+Therefore, we can use labels to indicate given version (instead of a milestone), e.g. for v21.05 release: [oda-21-05](https://github.com/issues?q=is%3Aopen+is%3Aissue++archived%3Afalse+label%3Aoda-21-05+).
 
 Projects can be used to group and preview issues more nicely. E.g. [this project](https://github.com/orgs/oda-hub/projects/8) groups issues/PRs for v21.05 release.
 
