@@ -71,6 +71,20 @@ UNIGE Platform is deployed with CI/CD from integral gitlab, which is synchronize
 
 **where to push?** we should make sure each repository which has both github and gitlab.astro.unige.ch versions to be synchronized between the two. Simple tooling is needed to ensure both locations are synchronous.
 
+## Github project management features: Labels, Milestones, Projects
+
+We need multi-repository management, and we can use **milestones to mark planned release versions**.
+
+In principle, both **labels** and **milestones** are per-repository, but even if they are created independently, they can be aggregated in organization if they are called the same way.
+
+For v21.05 release, all issues can be seen here: [v21.05 issues](https://github.com/issues?q=is%3Aopen++user%3Aoda-hub+milestone%3Av21.05+).
+
+Projects can be used to group and preview issues more nicely. [ODA Platform project](https://github.com/orgs/oda-hub/projects/1) shows all issues/PRs for the platform, and can be filtered [for v21.05 release](https://github.com/orgs/oda-hub/projects/1?card_filter_query=milestone%3Av21.05).
+
+To avoid duplication, **milestones** can be seen as primary indication of the issue/PR assignment to the release, and **project** is a complementary presentation feature.
+
+**Labels**, on the other hand, describe different aspects of issues (documentation, bug, etc). Details of the labels purpose should be put in the label descriptions.
+
 ## Documentation
 
 We aim to follow [FAIR](https://www.fairsfair.eu/news/fair-assessment-and-certification-eosc-region-report-available) documentation practices.
