@@ -51,7 +51,7 @@ So far we have used [SemVer](https://semver.org/), ending up with 1.2 production
 
 More frequent bugfixes will happen as necessary. This will be reflected in the version as so:
 
-**release-YY.MM.PPPP**
+**YY.MM.PPPP**
 
 where **YY** and **MM** correspond to the release month and year respectively, and **PPPP** is an incremental bugfix/update level since the release.
 
