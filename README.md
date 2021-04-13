@@ -72,6 +72,20 @@ UNIGE Platform is deployed with CI/CD from integral gitlab, which is synchronize
 
 **where to push?** we should make sure each repository which has both github and gitlab.astro.unige.ch versions to be synchronized between the two. Simple tooling is needed to ensure both locations are synchronous.
 
+## Github project management features: Labels, Milestones, Projects
+
+We need multi-repository management, and we can use **milestones to mark planned release versions**.
+
+In principle, both **labels** and **milestones** are per-repository, but even if they are created independently, they can be aggregated in organization if they are called the same way.
+
+For v21.05 release, all issues can be seen here: [v21.05 issues](https://github.com/issues?q=is%3Aopen++user%3Aoda-hub+milestone%3Av21.05+).
+
+Projects can be used to group and preview issues more nicely. [ODA Platform project](https://github.com/orgs/oda-hub/projects/1) shows all issues/PRs for the platform, and can be filtered [for v21.05 release](https://github.com/orgs/oda-hub/projects/1?card_filter_query=milestone%3Av21.05).
+
+To avoid duplication, **milestones** can be seen as primary indication of the issue/PR assignment to the release, and **project** is a complementary presentation feature.
+
+**Labels**, on the other hand, describe different aspects of issues (documentation, bug, etc). Details of the labels purpose should be put in the label descriptions.
+
 ## Documentation
 
 We aim to follow [FAIR](https://www.fairsfair.eu/news/fair-assessment-and-certification-eosc-region-report-available) documentation practices.
@@ -79,6 +93,7 @@ We aim to follow [FAIR](https://www.fairsfair.eu/news/fair-assessment-and-certif
 * Write documentation **for a purpose**, not just for the sake of it. State the purpose (reason to write, who will read, when and why) in the b
 * **Writing extensive documentation is not excuse to write unclear code**. 
    * **Make your code as clear (and maybe not too "smart") as possible**, and complement with notes and comments explaining motivation when it is unclear - but do not use comments to repeat what codes does. 
+
 * Put **documentation near the code when possible**, when not - think hard what is the purpose of a separate note.
 * Make **references** to the doc and from the doc:
    *  **Make documentation discoverable! - i.e. referenced from known locations**. Not discoverable doc is all but useless and will likely lead to repetition
@@ -88,9 +103,14 @@ We aim to follow [FAIR](https://www.fairsfair.eu/news/fair-assessment-and-certif
 * Try to follow [metadata ontology](https://redmine.astro.unige.ch/projects/cdci/wiki/Metadata-Schema)
 
 
-### Syncronozing git, redmine, etc
+### Synchronizing git, redmine, etc
 
 We have many sources for doc. Luckily, we have tools to synchronize them.
 
 For example [redmine-flow] (try `pip install redmine-flow`) allows to push/pull docs from redmine similarly to git. 
 To convert between doc formats, it's good to use [pandoc].
+
+
+### On the Style
+
+Style is important, but it has a purpose. Let us not focus on taste too much and make style work for us. See dedicated [note](style-guide.md).
