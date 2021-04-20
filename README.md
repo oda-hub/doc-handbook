@@ -36,7 +36,7 @@ Previously, **staging-V.V** deployment was automatically updated to all recent *
 
 To reduce the uncertainty on what is the current version in development, we can just use the **master** branch for merging all new features.
 
-Once the development justifies the release, we create a **release-YY.MM** branch and a tag **YY.MM.PPPP** Since this point, no developments will be introduced to the **YY.MM** version except for bugfixes. Every bug fix will yield in increase of the patch level (**PPPP** part).
+Once the development justifies the release, we create a **release-YY.MM** branch and a tag **v-YY.MM.PPPP**. Since this point, no developments will be introduced to the **YY.MM** version except for bugfixes. Every bug fix will yield in increase of the patch level (**PPPP** part).
 
 Instead of **staging-V.V**, we will make a deployment for review from each PR. This is becoming possible with the new and improved k8s cluster.
 In addition, we continue maintain the current development **staging** version of the platform, made from tip of the **master** branches of all components. This one will be similar to what we did so far with the latest **staging-V.V** version.
