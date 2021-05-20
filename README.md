@@ -67,9 +67,14 @@ If a bugfix is necessary, a dedicated bugfix branch will be made and destroyed w
 ## Github, Gitlab(s), etc?
 
 We use github for common activities, as it is currently most easily discoverable space.
-UNIGE Platform is deployed with CI/CD from integral gitlab, which is synchronized with github. It is also used for internal projects.
+**UNIGE Platform is deployed with CI/CD from integral gitlab**, which is pushing changes with github.
+It is also used for internal astro-only projects.
 
-**where to push?** we should make sure each repository which has both github and gitlab.astro.unige.ch versions to be synchronized between the two. Simple tooling is needed to ensure both locations are synchronous.
+**where to push?** 
+* Any change to gitlab.astro.unige.ch is synchronized to github.
+* not every change to github is is synchronized to gitlab.
+
+Since PRs are made on github, changes from github need to be propagated to gitlab, possibly customly.
 
 ## Github project management features: Labels, Milestones, Projects
 
