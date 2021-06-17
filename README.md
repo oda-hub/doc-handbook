@@ -90,7 +90,7 @@ To avoid duplication, **milestones** can be seen as primary indication of the is
 
 **Labels**, on the other hand, describe different aspects of issues (documentation, bug, etc). Details of the labels purpose should be put in the label descriptions.
 
-## Dealing with Issues
+## Dealing with Issues emerging in review and operations
 
 once a problem is found by a reviewer, it goes through the following stages:
 
