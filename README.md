@@ -90,6 +90,17 @@ To avoid duplication, **milestones** can be seen as primary indication of the is
 
 **Labels**, on the other hand, describe different aspects of issues (documentation, bug, etc). Details of the labels purpose should be put in the label descriptions.
 
+## Dealing with Issues
+
+once a problem is found by a reviewer, it goes through the following stages:
+
+* **reviewer** creates github issue in some repository, at their discression
+* if necessary, **maintainer** moves the issue to a more suitable repository
+* **maintainer** assigns the milestone, if necessary after consulatation with **reviewer** and other **stakeholders**  and **reviewers**
+* if issue is in the current milestone, **developer** fixes it at their convenience and assigns the issue to the **reviewer**
+* if **reviewer** is happy, issue is closed
+
+
 ## Documentation
 
 We aim to follow [FAIR](https://www.fairsfair.eu/news/fair-assessment-and-certification-eosc-region-report-available) documentation practices.
