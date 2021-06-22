@@ -82,9 +82,9 @@ We need multi-repository management, and we can use **milestones to mark planned
 
 In principle, both **labels** and **milestones** are per-repository, but even if they are created independently, they can be aggregated in organization if they are called the same way.
 
-For v21.05 release, all issues can be seen here: [v21.05 issues](https://github.com/issues?q=is%3Aopen++user%3Aoda-hub+milestone%3Av21.05+).
+For v21.06 release, all issues can be seen here: [v21.06 issues](https://github.com/issues?q=is%3Aopen++user%3Aoda-hub+milestone%3Av21.06+).
 
-Projects can be used to group and preview issues more nicely. [ODA Platform project](https://github.com/orgs/oda-hub/projects/1) shows all issues/PRs for the platform, and can be filtered [for v21.05 release](https://github.com/orgs/oda-hub/projects/1?card_filter_query=milestone%3Av21.05).
+Projects can be used to group and preview issues more nicely. [ODA Platform project](https://github.com/orgs/oda-hub/projects/1) shows all issues/PRs for the platform, and can be filtered [for v21.06 release](https://github.com/orgs/oda-hub/projects/1?card_filter_query=milestone%3Av21.06).
 
 To avoid duplication, **milestones** can be seen as primary indication of the issue/PR assignment to the release, and **project** is a complementary presentation feature.
 
@@ -97,7 +97,7 @@ once a problem is found by a reviewer, it goes through the following stages:
 * **reviewer** creates github issue in some repository, at their discression
 * if necessary, **maintainer** moves the issue to a more suitable repository
 * **maintainer** assigns the milestone, if necessary after consulatation with **reviewer** and other **stakeholders**  and **reviewers**
-* if issue is in the current milestone, **developer** fixes it at their convenience and assigns the issue to the **reviewer**
+* if issue is in the current milestone, **developer** fixes it at their convenience and asks the **reviewer** for a review of the applied changes 
 * if **reviewer** is happy, issue is closed
 
 
