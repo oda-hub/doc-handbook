@@ -97,7 +97,7 @@ once a problem is found by a reviewer, it goes through the following stages:
 * **reviewer** creates github issue in some repository, at their discression
 * if necessary, **maintainer** moves the issue to a more suitable repository
 * **maintainer** assigns the milestone, if necessary after consulatation with **reviewer** and other **stakeholders**  and **reviewers**
-* if issue is in the current milestone, **developer** fixes it at their convenience and asks the **reviewer** for a review of the applied changes 
+* if issue is in the current milestone, **developer** fixes it at their convenience and assigns the issue to the **reviewer**
 * if **reviewer** is happy, issue is closed
 
 
