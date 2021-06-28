@@ -7,7 +7,7 @@
 * Follow [issue handling principles](https://github.com/oda-hub/doc-ops-reporting#issue-handling-principles) - in short, do not expect user issues to be left unattended, never.
 * Do not be afraid to introduce large changes, but only if they respect previous interfaces
 
-## Do not forget to
+## Do not forget to!
 
 we all do many things, but we should be conscious that some actions are needed for smooth progress of collective project.
 Even though these actions may be delayed as necessary, it should be done with intent.
@@ -57,7 +57,7 @@ for example, next release will be **21.05.000**.
 
 CalVer will also clearly communicate pace of development, hopefully reduce hesitation in making the next significant release, and make the development more dynamic, matching the repeated requests of the users.
 
-Releases will be made as soon as accumulated features are necessary, made into release branch from the master branch, and tagged. Further 
+Releases will be made as soon as accumulated features are necessary, made into release branch from the master branch, and tagged.  
 If a bugfix is necessary, a dedicated bugfix branch will be made and destroyed when bugfix version is tagged.
 
 * use master for current stable staging version (i.e. no need for staging-1-3 etc), as deployed in UNIGE in staging (pre-release) environment. It may also experience quick bug-fixes, but not new running feature developments (feature branches are for that).
@@ -89,6 +89,18 @@ Projects can be used to group and preview issues more nicely. [ODA Platform proj
 To avoid duplication, **milestones** can be seen as primary indication of the issue/PR assignment to the release, and **project** is a complementary presentation feature.
 
 **Labels**, on the other hand, describe different aspects of issues (documentation, bug, etc). Details of the labels purpose should be put in the label descriptions.
+
+### Pull Requests vs Pushing commits to the Branch
+
+Regularly, code should be contributed by creating a dedicated branch, followed by a pull request.
+Pull requests allow the changes to be reviewed, allowing to introduce suggestions, and/or keeping other contributors aware of the code change.
+
+In special cases, non-reviewed changes may be contributed by pushing directly to master:
+
+* if the contribution is made by the principal developer, and other contributors have comparatively very little awareness on the code (as it is the case for much of the frontend components)
+* if a simple and small change is change is made, and it is not worth dealing with review. The choice here should be made with caution, as perceptions of what is not worth reviewing may differ. This is almost never necessary.
+
+Technically it is also possible to push commits on a branch (with an associated PR) made by another contributor. This should be avoided since it may confuse the author of the branch and prevents review.
 
 ## Dealing with Issues emerging in review and operations
 
