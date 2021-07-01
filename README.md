@@ -4,7 +4,7 @@
 ## General
 
 * When building interface accessible by other apps/users, try stick to standards and schemas (e.g. swagger). Make the schemas discoverable, reference in README.md on oda-hub repositories.
-* Follow [issue handling principles](https://github.com/oda-hub/doc-ops-reporting#issue-handling-principles) - in short, do not expect user issues to be left unattended, never.
+* Follow [incident handling principles](https://github.com/oda-hub/doc-ops-reporting#incident-handling-principles) - in short, do not expect user issues to be left unattended, never.
 * Do not be afraid to introduce large changes, but only if they respect previous interfaces
 
 ## Do not forget to!
