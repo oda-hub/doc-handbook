@@ -64,6 +64,10 @@ If a bugfix is necessary, a dedicated bugfix branch will be made and destroyed w
 * for production, we still use release branches, e.g. production-1-2.
 * use feature branches as necessary, in forks or in the base repository
 
+## Hotfixes
+
+Sometimes, an urgent change is required in production. Change will be introduced in a `hotfix` branch, which will be tested with existing test and hopefull new ones, and promptly deployed. Other development of the given component will not be merged until proper solution to the issue requiring `hotfix` is developed and merged.
+
 ## Github, Gitlab(s), etc?
 
 We use github for common activities, as it is currently most easily discoverable space.
