@@ -67,7 +67,7 @@ If a bugfix is necessary, a dedicated bugfix branch will be made and destroyed w
 ## Hotfixes
 
 Sometimes, an urgent issue is found in production. 
-A **temporary change** will be introduced in a `hotfix` branch, which will be tested with existing tests, and hopefull new ones, and promptly deployed. 
+A **temporary change** will be introduced in a `hotfix` branch, which will be tested with existing tests, and hopefully new ones, and promptly deployed. 
 Other development of the given component will not be merged until proper solution to the issue requiring `hotfix` is developed and merged.
 
 ## Github, Gitlab(s), etc?
