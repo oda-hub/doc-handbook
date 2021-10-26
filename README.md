@@ -99,6 +99,13 @@ To avoid duplication, **milestones** can be seen as primary indication of the is
 
 **Labels**, on the other hand, describe different aspects of issues (documentation, bug, etc). Details of the labels purpose should be put in the label descriptions.
 
+### How to pick next issue to address?
+
+* Issues highlighted as important on a meeting
+* Implementation of any [hotfixes](https://github.com/issues?q=is%3Aopen+archived%3Afalse+label%3A%22hotfix%22++org%3Aoda-hub) (since they block regular development flow).
+* With [high priority](https://github.com/issues?q=is%3Aopen+archived%3Afalse+label%3A%22high+priority%22++org%3Aoda-hub) label
+* Select what appears to be clear
+
 ### Pull Requests vs Pushing commits to the Branch
 
 Regularly, code should be contributed by creating a dedicated branch, followed by a pull request.
