@@ -150,7 +150,7 @@ To convert between doc formats, it's good to use [pandoc].
 Sometimes, there are features not available in ODA platform or oda-api, but may be useful to many users.
 This is especially relevant for user interface developments outside of `oda-api`. For example, typical [blocks of data analysis workflows](https://github.com/integral-observatory/cc-isgri-oda-spi-reference) or tools to reorganize and [optimize typical usage patterns](https://gitlab.astro.unige.ch/oda/api-clients/oda_api_wrapper/).
 
-Key distinction of these developments from the "standard" tools in oda-api is they do not need to go through regular development and release process, involving discussion and aggrement by all relevant ODA contributors.
+Key distinction of these developments from the "standard" tools in oda-api is they do not need to go through regular development and release process, involving discussion and agreement by all relevant ODA contributors.
 Due to lack of guaranteed aggrement, it is possible that these tools will facilitate unintended or even unfortunate usage patterns.
 
 Nevertheless, such developments may be recommended, with caveats, to users. If recommendation is addressed from the ODA team, the aggrement should be made in each case.
