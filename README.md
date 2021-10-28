@@ -101,10 +101,13 @@ To avoid duplication, **milestones** can be seen as primary indication of the is
 
 ### How to pick next issue to address?
 
-* Issues highlighted as important on a meeting
+In the order of importance:
+
 * Implementation of any [hotfixes](https://github.com/issues?q=is%3Aopen+archived%3Afalse+label%3A%22hotfix%22++org%3Aoda-hub) (since they block regular development flow).
-* With [high priority](https://github.com/issues?q=is%3Aopen+archived%3Afalse+label%3A%22high+priority%22++org%3Aoda-hub) label
-* Select what appears to be clear
+* With [high priority](https://github.com/issues?q=is%3Aopen+archived%3Afalse+label%3A%22high+priority%22++org%3Aoda-hub) label.
+* Issues highlighted as important on a meeting. Ideally, anything decided on the meeting has to follow the other guidelines (assigned labels, milestones, etc). But - do keep in mind what was discussed. 
+* Issues assigned the coming milestone.
+* Finally, an additional factor in selecting between issues is what appears to be more clear. 
 
 ### Pull Requests vs Pushing commits to the Branch
 
