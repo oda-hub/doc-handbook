@@ -81,7 +81,7 @@ It is also used for internal astro-only projects.
 
 **where to push?** 
 * Any change to gitlab.astro.unige.ch is synchronized to github.
-* not every change to github is is synchronized to gitlab.
+* not every change to github is synchronized to gitlab.
 
 Since PRs are made on github, changes from github need to be propagated to gitlab, possibly customly.
 
@@ -125,9 +125,9 @@ Technically it is also possible to push commits on a branch (with an associated 
 
 once a problem is found by a reviewer, it goes through the following stages:
 
-* **reviewer** creates github issue in some repository, at their discression
+* **reviewer** creates github issue in some repository, at their discretion
 * if necessary, **maintainer** moves the issue to a more suitable repository
-* **maintainer** assigns the milestone, if necessary after consulatation with **reviewer** and other **stakeholders**  and **reviewers**
+* **maintainer** assigns the milestone, if necessary after consultation with **reviewer** and other **stakeholders**  and **reviewers**
 * if issue is in the current milestone, **developer** fixes it at their convenience and assigns the issue to the **reviewer**
 * if **reviewer** is happy, issue is closed
 

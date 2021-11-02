@@ -7,3 +7,5 @@ bugfixes
 mattermost
 calver
 astro
+hotfixes
+customly
