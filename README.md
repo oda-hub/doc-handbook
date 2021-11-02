@@ -81,7 +81,7 @@ It is also used for internal astro-only projects.
 
 **where to push?** 
 * Any change to gitlab.astro.unige.ch is synchronized to github.
-* not every change to github is is synchronized to gitlab.
+* not every change to github is synchronized to gitlab.
 
 Since PRs are made on github, changes from github need to be propagated to gitlab, possibly customly.
 
@@ -99,6 +99,16 @@ To avoid duplication, **milestones** can be seen as primary indication of the is
 
 **Labels**, on the other hand, describe different aspects of issues (documentation, bug, etc). Details of the labels purpose should be put in the label descriptions.
 
+### How to pick next issue to address?
+
+In the order of importance:
+
+* Implementation of any [hotfixes](https://github.com/issues?q=is%3Aopen+archived%3Afalse+label%3A%22hotfix%22++org%3Aoda-hub) (since they block regular development flow).
+* With [high priority](https://github.com/issues?q=is%3Aopen+archived%3Afalse+label%3A%22high+priority%22++org%3Aoda-hub) label.
+* Issues highlighted as important on a meeting. Ideally, anything decided on the meeting has to follow the other guidelines (assigned labels, milestones, etc). But - do keep in mind what was discussed. 
+* Issues assigned the coming milestone.
+* Finally, an additional factor in selecting between issues is what appears to be more clear. 
+
 ### Pull Requests vs Pushing commits to the Branch
 
 Regularly, code should be contributed by creating a dedicated branch, followed by a pull request.
@@ -115,9 +125,9 @@ Technically it is also possible to push commits on a branch (with an associated 
 
 once a problem is found by a reviewer, it goes through the following stages:
 
-* **reviewer** creates github issue in some repository, at their discression
+* **reviewer** creates github issue in some repository, at their discretion
 * if necessary, **maintainer** moves the issue to a more suitable repository
-* **maintainer** assigns the milestone, if necessary after consulatation with **reviewer** and other **stakeholders**  and **reviewers**
+* **maintainer** assigns the milestone, if necessary after consultation with **reviewer** and other **stakeholders**  and **reviewers**
 * if issue is in the current milestone, **developer** fixes it at their convenience and assigns the issue to the **reviewer**
 * if **reviewer** is happy, issue is closed
 
