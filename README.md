@@ -18,11 +18,13 @@ It may be advisable to make sure all actions and channels converge to email.
 * on github check assigned issues, reviews, pull requests (this is all reflected in notifications, and other fields in the github page header)
 * communicate by mattermost and slack
 
-Note that if the PR is not draft, someone will need to select reviewers. If the PR is made by internal developer, only this developer will select reviewers. The PR is made by external developer - any relevant internal developer will select the reviewers.
+## About review order
 
-Until PR review is requested, review is not expected to follow. Some comments on in-progress code may be made, but with caution.
-
-It may happen that PR by internal reviewer is not draft, but review is not requested. This intermediate stage awaits action from the internal developer. It's best not to keep PR in this form, since it's a bit ambigious.
+* Note that if the PR is not draft, someone will need to select reviewers. 
+* If the PR is made by an internal developer, only this developer will select the first reviewers. Other internal developers may suggest new reviewers.
+* If The PR is made by an external developer - any relevant internal developer will select the reviewers.
+* Until PR review is requested, review is not expected to follow. Some comments on in-progress code may be made, but with caution.
+* It may happen that PR by  aninternal reviewer is not in a draft state, but review is not requested. This intermediate stage awaits action from the internal developer. It's best not to keep PR in this form, since it's a bit ambiguous.
 
 ## Branches, Versions, Releases
 
