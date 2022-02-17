@@ -86,7 +86,7 @@ After **the issue** is resolved and merged, `hotfix` branch will be deleted and 
 We use github for common activities, as it is currently most easily discoverable space.
 Hence github hosts the **"community version"** of the software.
 
-**UNIGE MMODA Site is deployed with CI/CD from integral gitlab**, which is pushing changes with github.
+**UNIGE MMODA Site is deployed with CI/CD from integral gitlab site configuration**. 
 It is also used for internal astro-only projects (like product gallery).
 Much of the frontend also has the reference **"author's version"** in gitlab, managed by the frontend developer alone.
 
