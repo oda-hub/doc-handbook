@@ -84,14 +84,21 @@ After **the issue** is resolved and merged, `hotfix` branch will be deleted and 
 ## Github, Gitlab(s), etc?
 
 We use github for common activities, as it is currently most easily discoverable space.
-**UNIGE Platform is deployed with CI/CD from integral gitlab**, which is pushing changes with github.
-It is also used for internal astro-only projects.
+Hence github hosts the **"community version"** of the software.
+
+**UNIGE MMODA Site is deployed with CI/CD from integral gitlab**, which is pushing changes with github.
+It is also used for internal astro-only projects (like product gallery).
+Much of the frontend also has the reference **"author's version"** in gitlab, managed by the frontend developer alone.
 
 **where to push?** 
-* Any change to gitlab.astro.unige.ch is synchronized to github.
-* not every change to github is synchronized to gitlab.
+  * considering that:
+    * Any change to gitlab.astro.unige.ch is expected to be synchronized to github, but it's not necessarily done automatically, since it may require merging.
+    * not every change to github is synchronized to gitlab.
+  * changes on gitlab will have to be agreed by the lead frontend developer, and will be integrated in github community version ASAP.
+  * changes on github may occasionally diverge from the gitlab version. It is the responsibility of the frontend development team to merge the change on gitlab.
 
 Since PRs are made on github, changes from github need to be propagated to gitlab, possibly customly.
+
 
 ## Github project management features: Labels, Milestones, Projects
 
