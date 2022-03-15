@@ -87,11 +87,8 @@ We use github for common activities, as it is currently most easily discoverable
 **UNIGE Platform is deployed with CI/CD from integral gitlab**, which is pushing changes with github.
 It is also used for internal astro-only projects.
 
-**where to push?** 
-* Any change to gitlab.astro.unige.ch is synchronized to github.
-* not every change to github is synchronized to gitlab.
-
-Since PRs are made on github, changes from github need to be propagated to gitlab, possibly customly.
+Currently, no repository has two (internal and external) version.
+I.e. each project is either internal (and lives in gitlab.astro, e.g. product gallery) or external (much of MMODA)
 
 ## Github project management features: Labels, Milestones, Projects
 
