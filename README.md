@@ -24,7 +24,7 @@ It may be advisable to make sure all actions and channels converge to email.
 * If the PR is made by an internal developer, only this developer will select the first reviewers. Other internal developers may suggest new reviewers.
 * If The PR is made by an external developer - any relevant internal developer will select the reviewers.
 * Until PR review is requested, review is not expected to follow. Some comments on in-progress code may be made, but with caution.
-* It may happen that PR by  aninternal reviewer is not in a draft state, but review is not requested. This intermediate stage awaits action from the internal developer. It's best not to keep PR in this form, since it's a bit ambiguous.
+* It may happen that PR by  an internal reviewer is not in a draft state, but review is not requested. This intermediate stage awaits action from the internal developer. It's best not to keep PR in this form, since it's a bit ambiguous.
 
 ## Branches, Versions, Releases
 
