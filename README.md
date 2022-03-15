@@ -164,3 +164,6 @@ To convert between doc formats, it's good to use [pandoc].
 ### On the Style
 
 Style is important, but it has a purpose. Let us not focus on taste too much and make style work for us. See dedicated [note](style-guide.md).
+
+
+## Deployments and code bots
