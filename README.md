@@ -24,7 +24,7 @@ It may be advisable to make sure all actions and channels converge to email.
 * If the PR is made by an internal developer, only this developer will select the first reviewers. Other internal developers may suggest new reviewers.
 * If The PR is made by an external developer - any relevant internal developer will select the reviewers.
 * Until PR review is requested, review is not expected to follow. Some comments on in-progress code may be made, but with caution.
-* It may happen that PR by  aninternal reviewer is not in a draft state, but review is not requested. This intermediate stage awaits action from the internal developer. It's best not to keep PR in this form, since it's a bit ambiguous.
+* It may happen that PR by  an internal reviewer is not in a draft state, but review is not requested. This intermediate stage awaits action from the internal developer. It's best not to keep PR in this form, since it's a bit ambiguous.
 
 ## Branches, Versions, Releases
 
@@ -87,11 +87,8 @@ We use github for common activities, as it is currently most easily discoverable
 **UNIGE Platform is deployed with CI/CD from integral gitlab**, which is pushing changes with github.
 It is also used for internal astro-only projects.
 
-**where to push?** 
-* Any change to gitlab.astro.unige.ch is synchronized to github.
-* not every change to github is synchronized to gitlab.
-
-Since PRs are made on github, changes from github need to be propagated to gitlab, possibly customly.
+Currently, no repository has two (internal and external) version.
+I.e. each project is either internal (and lives in gitlab.astro, e.g. product gallery) or external (much of MMODA)
 
 ## Github project management features: Labels, Milestones, Projects
 
