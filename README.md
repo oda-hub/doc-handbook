@@ -105,8 +105,8 @@ To avoid duplication, **milestones** can be seen as primary indication of the is
 **Labels**, on the other hand, describe different aspects of issues (documentation, bug, etc). Details of the labels purpose should be put in the label descriptions.
 We have the following labels, among others:
 
-* **Bug** is something that violates feature which we assume to work. Bug needs to be addressed ASAP, sometimes with a hotfix, or at least included in "Known Issues" (bug included in known issues should be considered a future feature). 
-* **Feature** is something we know we did not have but would like to have. Feature development is to be scheduled according to the requirements and availability.
+* [![image](https://user-images.githubusercontent.com/3909535/182399284-87e03d01-c6de-42b2-bcb1-24b28e579a8f.png)](https://github.com/issues?q=is%3Aopen+org%3Aoda-hub+label%3Abug) label on a PR or an issue indicates something that violates feature which we assume to work. Bug needs to be addressed ASAP, sometimes with a hotfix, or at least included in "Known Issues" (bug included in known issues should be considered a future feature). 
+* [![image](https://user-images.githubusercontent.com/3909535/182400570-94cc9547-92ea-40c8-b20f-41ceec52683e.png)](https://github.com/issues?q=is%3Aopen+org%3Aoda-hub+label%3Aenhancement) (or equivalemently, a Feature) label on a PR or an issue indicates is something we know we did not have but would like to have. Feature development is to be scheduled according to the requirements and availability.
 
 ### How to pick next issue to address?
 
