@@ -103,6 +103,10 @@ Projects can be used to group and preview issues more nicely. [ODA Platform proj
 To avoid duplication, **milestones** can be seen as primary indication of the issue/PR assignment to the release, and **project** is a complementary presentation feature.
 
 **Labels**, on the other hand, describe different aspects of issues (documentation, bug, etc). Details of the labels purpose should be put in the label descriptions.
+We have the following labels, among others:
+
+* **Bug** is something that is found to break behavior which we assume and announce to the users as working
+* **Feature** is something we know we did not have but would like to have.
 
 ### How to pick next issue to address?
 
