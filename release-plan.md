@@ -7,7 +7,11 @@ We release minor updates to the core platform often, typically once a week.
 Once it is decided that a **major feature** is the priority, the development of this feature is tracked in **issues**: github, gitlab(s), redmine, etc.
 **Issues** blocking this **feature** may receive a correspoding **labels**.
 
+We are also using full-text search and NLP semantic harvesting to relate issues with goals, so unlabeled issues are not lost.
+
 ### Feature release: Gallery in MMODA
+
+
 
 The coming release is driven by integratng MMODA Gallery in main MMODA UI.
 The release is expected for Nov 2023.
@@ -17,3 +21,5 @@ As of early Nov 2023, this feature is blocked by insufficient responsiviness of 
 ### Feature release: Crowdsourcing MMODA tool construction 
 
 Integration between MMODA and RenkuLab allows broad range of users to construct MMODA online analysis tools in reproducible jupyterlab environment powered by gitlab, jupyterhub-like platform, and a knowledge graph.
+
+The release is e
