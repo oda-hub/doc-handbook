@@ -5,7 +5,7 @@ We release minor updates to the core platform often, typically once a week.
 **Major releases** are driven by introduction of **major features** which deserve additional attention and **dissemination**.
 
 Once it is decided that a **major feature** is the priority, the development of this feature is tracked in **issues**: github, gitlab(s), redmine, etc.
-**Issues** blocking this **feature** may receive a correspoding **labels**.
+**Issues** blocking this **feature** may receive a correspoding **labels**. Issues which are not labeled are not blocking the feature but might still be relevant.
 
 We are also using full-text search and NLP semantic harvesting to relate issues with goals, so unlabeled issues are not lost.
 
