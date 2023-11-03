@@ -16,7 +16,9 @@ Too much notifications and distractions are detrimental to productivity, but one
 It may be advisable to make sure all actions and channels converge to email. 
 
 * on github check assigned issues, reviews, pull requests (this is all reflected in notifications, and other fields in the github page header)
-* communicate by mattermost and slack
+* communicate by mattermost, slack, matrix
+* once a week we have an hour-long meeting where everybody has an opportunity to get an update on the project, and raise new issues
+* every few month we have an in-person all-hands meeting
 
 ## About review order
 
